@@ -312,3 +312,19 @@ function np() {
 function tre() {
 	tree -aC -I '.git|node_modules|bower_components' --dirsfirst "$@" | less -FRNX
 }
+
+# Create a folder and new index.html file in CS folder
+function csdemo() {
+    cd ~/PowerInbox/prototypes/Demos/prototypes/cs/clientdemos
+
+    #check if there was a name passed
+    if [ -z "$1" ]
+    then
+        echo "Please provide a name for the folder"
+    else
+        mkdir "$1"
+        cd "$1"
+        printf '<!doctype html>\n<html lang="en">\n<head>\n\t<meta charset="UTF-8">\n\t<title>Document</title>\n</head>\n<body>\n\n</body>\n</html>' > index.html
+        subl -a index.html
+    fi
+}
