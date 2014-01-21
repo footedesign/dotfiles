@@ -24,15 +24,17 @@
 	],
 	"font_size": 14,
 	"highlight_modified_tabs": true,
+	"bold_folder_labels": true,
 	"hot_exit": false,
-	"line_padding_bottom": 6,
+	"caret_style": "phase",
+	"highlight_line": true,
+	"line_padding_bottom": 1,
 	"match_brackets": true,
 	"match_brackets_angle": true,
-	"remember_open_files": false,
-	"rulers":
-	[
-		80
-	],
+	"open_files_in_new_window": false,
+	"save_on_focus_lost": true,
+	"spell_check": true,
+	"tab_completion": false,
 	"tab_size": 2,
 	"translate_tabs_to_spaces": false,
 	"trim_trailing_white_space_on_save": true,
