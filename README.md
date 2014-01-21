@@ -1,4 +1,5 @@
-# Mathias’s dotfiles
+# Ryan’s dotfiles
+Modified from those by Mathias Bynens - http://mths.be/dotfiles
 
 ## Installation
 
