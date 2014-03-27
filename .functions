@@ -315,7 +315,7 @@ function tre() {
 
 # Create a folder and new index.html file in CS folder
 function csdemo() {
-    cd ~/PowerInbox/prototypes/Demos/prototypes/cs/clientdemos
+    cd ~/PowerInbox/prototypes/prototypes/cs/clientdemos
 
     #check if there was a name passed
     if [ -z "$1" ]

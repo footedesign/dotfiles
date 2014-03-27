@@ -1,4 +1,2 @@
 #install Quick Look plugins
-function quicklook() {
-	brew cask install qlcolorcode qlstephen qlmarkdown quicklook-json quicklook-csv betterzipql webp-quicklook suspicious-package
-}
+brew cask install qlcolorcode qlstephen qlmarkdown quicklook-json quicklook-csv betterzipql webp-quicklook suspicious-package
